@@ -30,7 +30,7 @@ PsychoArt, modern ve kullanıcı dostu bir NFT marketplace platformudur. Dijital
 
 1. Repoyu klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/psychoart-nft.git
+git clone https://github.com/MehmetKaplan33/psychoart-nft.git
 ```
 
 2. Proje dizinine gidin:
@@ -79,8 +79,8 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 Mehmet Kaplan
 
-- GitHub: [@mehmetkaplan](https://github.com/mehmetkaplan)
-- LinkedIn: [Mehmet Kaplan](https://linkedin.com/in/mehmetkaplan)
+- GitHub: [@mehmetkaplan]([https://github.com/mehmetkaplan](https://github.com/MehmetKaplan33))
+- LinkedIn: [Mehmet Kaplan](https://www.linkedin.com/in/mehmet-kaplan-601013294/)
 
 ---
 
