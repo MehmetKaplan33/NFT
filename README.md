@@ -79,7 +79,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 Mehmet Kaplan
 
-- GitHub: [@mehmetkaplan]([https://github.com/mehmetkaplan](https://github.com/MehmetKaplan33))
+- GitHub: [@Kaplan_Mehmet_33]([https://github.com/mehmetkaplan](https://github.com/MehmetKaplan33))
 - LinkedIn: [Mehmet Kaplan](https://www.linkedin.com/in/mehmet-kaplan-601013294/)
 
 ---
