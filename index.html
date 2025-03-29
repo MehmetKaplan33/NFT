@@ -1,0 +1,722 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Mehmet Kaplan</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <!-- google font link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>PsychoArt</title>
+  </head>
+  <body>
+    <!-- Header section start -->
+    <header class="header">
+      <div class="header__container">
+        <h3 class="header__logo">Psycho<span class="brand">Art</span></h3>
+        <form action="" class="header__search-form">
+          <label for="search-box" class="fas fa-search"></label>
+          <input
+            type="search"
+            id="search-box"
+            placeholder="Search items and featured"
+          />
+        </form>
+        <nav class="header__navbar">
+          <a href="#collections">Collections</a>
+          <a href="#featured">Featured</a>
+          <a href="#faq">FAQ</a>
+          <div class="header__btn btn">Select Wallet</div>
+        </nav>
+        <div class="header__bars fas fa-bars"></div>
+        <div class="header__wallet fas fa-wallet"></div>
+      </div>
+    </header>
+    <div class="menu-overlay"></div>
+    <!-- Header section end -->
+
+    <!-- Mobil Menü -->
+    <div class="mobile-menu">
+      <nav class="mobile-menu__navbar">
+        <a href="#collections">Collections</a>
+        <a href="#featured">Featured</a>
+        <a href="#faq">FAQ</a>
+        <div class="header__btn btn">Select Wallet</div>
+      </nav>
+    </div>
+
+    <!-- Home section start -->
+    <section class="home">
+      <div class="home__container">
+        <article class="home__left col-5">
+          <header class="home__title">
+            <h2>Create, Sell & Collect Your Own Creative NFT</h2>
+          </header>
+          <div class="home__description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, exercitationem dolore! Maxime, itaque.
+            </p>
+          </div>
+          <button class="home__buttons">
+            <div class="btn-1 btn">Explore Now</div>
+            <div class="btn-2 btn">Sell NFT</div>
+          </button>
+          <div class="home__experience-container">
+            <div class="home__box">
+              <h2>37k+</h2>
+              <p>Artworks</p>
+            </div>
+            <div class="home__box">
+              <h2>20k+</h2>
+              <p>Artists</p>
+            </div>
+            <div class="home__box">
+              <h2>99k+</h2>
+              <p>Aucations</p>
+            </div>
+          </div>
+        </article>
+        <div class="space col-1"></div>
+        <article class="home__right col-6">
+          <img src="img/heroimage.png" alt="" class="home-image float" />
+        </article>
+      </div>
+    </section>
+    <!-- Home section end -->
+
+    <!-- Partner section starts -->
+    <section class="partner">
+      <div class="partner__container">
+        <img src="img/binance.svg" alt="" />
+        <img src="img/ethereum.svg" alt="" />
+        <img src="img/blockchain.svg" alt="" />
+      </div>
+    </section>
+    <!-- Partner section ends -->
+
+    <!-- About section start -->
+    <section class="about">
+      <header class="about__head">
+        <h2>About Us</h2>
+      </header>
+      <div class="about__explain">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="about__container">
+        <article class="about__left col-5">
+          <img src="img/about.png" alt="" />
+        </article>
+        <div class="space col-1"></div>
+        <article class="about__right col-6">
+          <header class="about__title">
+            <h2>Get Popular NFT</h2>
+          </header>
+          <div class="about__description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
+              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
+              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
+              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
+              per conubia nostra, per inceptos himenaeos. Praesent auctor purus
+              luctus enim egestas, ac scelerisque ante pulvinar.
+            </p>
+          </div>
+          <a class="about__button btn">Show More</a>
+        </article>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Collections section start -->
+    <section class="collections" id="collections">
+      <header class="collections__head">
+        <h2>Collections</h2>
+      </header>
+      <div class="collections__explain">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="collections__filter-container" id="filters">
+        <div class="collections__filter active" data-filter="*">
+          <div>All</div>
+        </div>
+        <div class="collections__filter" data-filter=".art">
+          <div>Art</div>
+        </div>
+        <div class="collections__filter" data-filter=".photography">
+          <div>Photography</div>
+        </div>
+        <div class="collections__filter" data-filter=".pattern">
+          <div>Pattern</div>
+        </div>
+      </div>
+      <div class="collections__items">
+        <div class="collections__box-container" id="portfolio">
+          <div class="collections__box art">
+            <img src="img/collection1.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box photography">
+            <img src="img/collection2.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box pattern">
+            <img src="img/collection3.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box photography">
+            <img src="img/collection4.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box art">
+            <img src="img/collection5.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box pattern">
+            <img src="img/collection6.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box art">
+            <img src="img/collection7.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box photography">
+            <img src="img/collection8.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+          <div class="collections__box pattern">
+            <img src="img/collection9.png" alt="" />
+            <div class="collections__content">
+              <div class="collections__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="collections__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="collections__btn btn">
+                <a href="#">Place a bid</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Collections section end -->
+
+    <!-- featured section start -->
+    <section class="featured" id="featured">
+      <header class="featured__head">
+        <h2>Featured Artworks</h2>
+      </header>
+      <div class="featured__explain">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper featuredSwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection1.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection2.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection3.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection4.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection5.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection6.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection7.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection8.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+
+          <!-- Slide 9 -->
+          <div class="swiper-slide">
+            <div class="featured__box">
+              <img src="img/collection9.png" alt="" />
+              <div class="featured__name">
+                <p>@johny</p>
+                <h5>Current Bid</h5>
+              </div>
+              <div class="featured__price">
+                <p>Yellow Painting</p>
+                <h5>0.0005 ETH</h5>
+              </div>
+              <div class="featured__btn btn"><a href="#">Place a bid</a></div>
+            </div>
+          </div>
+        </div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- featured section end -->
+
+    <!-- Creator section start -->
+    <section class="creator">
+      <header class="creator__head">
+        <h2>Top Creator</h2>
+      </header>
+      <div class="creator__explain">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <!-- Slider container -->
+      <div class="swiper creatorSwiper">
+        <div class="swiper-wrapper">
+          <!-- Creator 1 -->
+          <div class="swiper-slide">
+            <div class="creator__box">
+              <div class="creator__image-1">
+                <img src="img/creator1.png" alt="" />
+              </div>
+              <div class="creator__image-2">
+                <img src="img/photo1.png" alt="" />
+                <h3>John Wick</h3>
+              </div>
+              <div class="creator__description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="creator__btn btn">
+                <a href="#" class="follow-btn" data-creator="creator1"
+                  >+ Follow</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Creator 2 -->
+          <div class="swiper-slide">
+            <div class="creator__box">
+              <div class="creator__image-1">
+                <img src="img/creator2.png" alt="" />
+              </div>
+              <div class="creator__image-2">
+                <img src="img/photo2.png" alt="" />
+                <h3>John Wick</h3>
+              </div>
+              <div class="creator__description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="creator__btn btn">
+                <a href="#" class="follow-btn" data-creator="creator1"
+                  >+ Follow</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Creator 3 -->
+          <div class="swiper-slide">
+            <div class="creator__box">
+              <div class="creator__image-1">
+                <img src="img/creator3.png" alt="" />
+              </div>
+              <div class="creator__image-2">
+                <img src="img/photo3.png" alt="" />
+                <h3>John Wick</h3>
+              </div>
+              <div class="creator__description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="creator__btn btn">
+                <a href="#" class="follow-btn" data-creator="creator1"
+                  >+ Follow</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev creator-button-prev"></div>
+        <div class="swiper-button-next creator-button-next"></div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination creator-pagination"></div>
+      </div>
+    </section>
+    <!-- Creator section end -->
+
+    <!-- FAQ section start -->
+    <section class="faq" id="faq">
+      <header class="faq__head">
+        <h2>
+          Freaquently Asked <br />
+          Question
+        </h2>
+      </header>
+      <div class="faq__explain">
+        <p>Wanna Ask Something?</p>
+      </div>
+      <article class="faq__container">
+        <div>
+          <div class="faq__accordion">
+            <div class="faq__heading">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="faq__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+              adipisci suscipit nobis temporibus molestias fugiat quas possimus
+              assumenda quod quae modi dolorem sed.
+            </p>
+          </div>
+          <div class="faq__accordion">
+            <div class="faq__heading">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="faq__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+              adipisci suscipit nobis temporibus molestias fugiat quas possimus
+              assumenda quod quae modi dolorem sed.
+            </p>
+          </div>
+          <div class="faq__accordion">
+            <div class="faq__heading">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="faq__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+              adipisci suscipit nobis temporibus molestias fugiat quas possimus
+              assumenda quod quae modi dolorem sed.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="faq__accordion">
+            <div class="faq__heading">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="faq__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+              adipisci suscipit nobis temporibus molestias fugiat quas possimus
+              assumenda quod quae modi dolorem sed.
+            </p>
+          </div>
+          <div class="faq__accordion">
+            <div class="faq__heading">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="faq__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+              adipisci suscipit nobis temporibus molestias fugiat quas possimus
+              assumenda quod quae modi dolorem sed.
+            </p>
+          </div>
+          <div class="faq__accordion">
+            <div class="faq__heading">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="faq__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+              adipisci suscipit nobis temporibus molestias fugiat quas possimus
+              assumenda quod quae modi dolorem sed.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- FAQ section end -->
+
+    <!-- Banner section start -->
+    <section class="banner">
+      <header class="banner__title">
+        <h1>Get ready to collect our NFT</h1>
+      </header>
+      <div class="banner__button">
+        <a href="#" class="banner__btn btn">Get Started</a>
+      </div>
+    </section>
+    <!-- Banner section end -->
+
+    <!-- Footer section start -->
+    <section class="footer">
+      <article class="footer__container">
+        <div class="footer__box">
+          <h3 class="footer__title">Psycho<span class="brand">Art</span></h3>
+          <p class="footer__description">
+            The best NFT marketplace website in the world and feel your
+            experience in selling or buy our work
+          </p>
+        </div>
+        <div class="footer__box">
+          <h2 class="footer__title">About</h2>
+          <a href="#" class="footer__links">Product</a>
+          <a href="#" class="footer__links">Resource</a>
+          <a href="#" class="footer__links">Term & Condition</a>
+          <a href="#" class="footer__links">FAQ</a>
+        </div>
+        <div class="footer__box">
+          <h2 class="footer__title">Company</h2>
+          <a href="#" class="footer__links">Our Team</a>
+          <a href="#" class="footer__links">Partner With Us</a>
+          <a href="#" class="footer__links">Privacy & Policy</a>
+          <a href="#" class="footer__links">Features</a>
+        </div>
+        <div class="footer__box">
+          <h2 class="footer__title">Contact</h2>
+          <a href="#" class="footer__links">+012 3456789</a>
+          <a href="#" class="footer__links">xyz@gmail.com</a>
+          <div class="footer__social-media">
+            <a href="#" class="footer__links fab fa-youtube"></a>
+            <a href="#" class="footer__links fab fa-discord"></a>
+            <a href="#" class="footer__links fab fa-instagram"></a>
+          </div>
+        </div>
+      </article>
+      <div class="footer__copyright">
+        <p>Created by <span>Mehmet Kaplan</span> | All Right Reserved!</p>
+      </div>
+    </section>
+    <!-- Footer section end -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
