@@ -82,6 +82,8 @@ Mehmet Kaplan
 - GitHub: [@Kaplan_Mehmet_33]([https://github.com/mehmetkaplan](https://github.com/MehmetKaplan33))
 - LinkedIn: [Mehmet Kaplan](https://www.linkedin.com/in/mehmet-kaplan-601013294/)
 
+Proje Linki: [https://github.com/MehmetKaplan33/NFT](https://github.com/MehmetKaplan33/NFT)
+
 ---
 
 ⭐️ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
