@@ -73,7 +73,7 @@ psychoart-nft/
 
 ## 📝 Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [MIT License](https://opensource.org/licenses/MIT) dosyasına bakın.
 
 ## 👨‍💻 Geliştirici
 
